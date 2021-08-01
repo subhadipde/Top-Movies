@@ -1,0 +1,27 @@
+.ttl{
+	text-align: center;
+	font-family: Algerian;
+	background-color: #FBAED2
+}
+.film{
+	color: red;
+	font-size: 20;
+	font-family: Imprint MT Shadow;
+}
+.trailer{
+		color: #00A86B;
+		text-align: center;
+		font-family: Maiandra GD;
+		text-shadow:5px 5px 10px #00FF00;
+}
+.name{
+	text-align: center;
+	font-family: Javanese Text;
+}
+.lnk{
+	border: dashed rgba(170, 50, 220, .6);
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	font-family: Rockwell Nova Extra Bold;
+	background-color: #C7C6C1;
+	background-clip: border-box;
+}
