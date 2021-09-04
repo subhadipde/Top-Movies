@@ -1,0 +1,69 @@
+*{
+    border: 0;
+    margin: 0;
+    
+    color: mintcream;
+}
+body{
+    background-color: rgb(24, 24, 145);
+}
+
+/* header css */
+
+header{
+    font-size: 1.4rem;
+    display: flex;
+    background-color: aqua;
+
+    min-height: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 30px;
+}
+.nav{
+     width: 400px; /*upto 800px */
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+}
+#search{
+    font-size: 1.1rem;
+}
+.search button{
+    background-color: navy;
+    font-size: 1.1rem;
+}
+
+/* header css */
+
+/* main css */
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: orchid;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.dummypic{
+    background-color: teal;
+    height: 200px;
+    width:200px;
+}
+
+.description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* main css */
