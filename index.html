@@ -1,815 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Top English Movies, Best Hollywood Movies">
-	<meta name="keyword" content="Top English Movies, Best Hollywood Movies, Hollywood Action Movies, best action movies, top hollywood movies">
-	<meta name="author" content="Subhadip De">
-	<title>Top English Movies</title>
-	<link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies World</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1 class="ttl">List of Top English Movies</h1>
-	<table border="1">
-		<thead style="text-shadow: 5px 5px 10px black">
-			<tr>
-				<th>Poster</th>
-				<th style="min-width: 225px">Film</th>
-				<th>About</th>
-				<th style="min-width: 140px">Star(S)</th>
-				<th style="min-width: 140px">Director(S)</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><img src="poster/godfather.jpg" alt="The Browser Failed to Find the Poster" title="The Godfather" width="130px" height="200px"></td>
-				<td>1. 
-					<a href="https://en.wikipedia.org/wiki/The_Godfather" class="film">The Godfather</a>
-					<span>(1972)</span>
-					<h5>2hr 55min | Crime, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  9.2/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  100
-					</div>
-					<a href="https://www.youtube.com/watch?v=CWoQlDlyQj4"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="The_Godfather_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>The Godfather "Don" Vito Corleone is the head of the Corleone mafia family in New York. He is at the event of his daughter's wedding. Michael, Vito's youngest son and a decorated WW II Marine is also present at the wedding. Michael seems to be uninterested in being a part of the family business. Vito is a powerful man, and is kind to all those who give him respect but is ruthless against those who do not. But when a powerful and treacherous rival wants to sell drugs and needs the Don's influence for the same, Vito refuses to do it. What follows is a clash between Vito's fading old values and the new ways which may cause Michael to do the thing he was most reluctant in doing and wage a mob war against all the other mafia families which could tear the Corleone family apart.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Marlon_Brando">Marlon Brando</a><br>
-					<a href="https://en.wikipedia.org/wiki/James_Caan">James Caan</a><br>
-					<a href="https://en.wikipedia.org/wiki/Al_Pacino">Al Pacino</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Francis Ford Coppola</a></td>
-			</tr>
+    <header>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
 
-			<tr>
-				<td><img src="poster/lord_of_rings3.jpg" alt="The Browser Failed to Find the Poster" title="The Lord of the Rings: The Return of the King" width="130px" height="220px"></td>
-				<td>2. 
-					<a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King" class="film">The Lord of the Rings: The Return of the King</a>
-					<span>(2003)</span>
-					<h5>3hr 21min | Adventure, Fantasy</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.9/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  94
-					</div>
-					<a href="https://www.youtube.com/watch?v=r5X-hFf6Bwo"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="Lord_of_Rings_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>The Fellowship divides to conquer as Frodo and Sam, with the help and hindrance of Gollum, continue their way to Mount Doom. Gandalf and Pippin ride to Minas Tirith to help defend Gondor while Merry remains with Éowyn and the other Rohan fighters. Aragorn, Legolas, and Gimli seek aid from those that live in the Cursed Mountains. All of these battles have one goal in mind: distract the Eye of Sauron and buy Frodo a little more time to destroy the One Ring.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Elijah_Wood">Elijah Wood</a><br>
-					<a href="https://en.wikipedia.org/wiki/Viggo_Mortensen">Viggo Mortensen</a><br>
-					<a href="https://en.wikipedia.org/wiki/Ian_McKellen">Ian McKellen</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Peter_Jackson">Peter Jackson</a></td>
-			</tr>
+        <div class="search">
+            <form action="#">
+                <input type="text" name="searching" id="search" placeholder="Enter Movie Name">
+                <button type="submit">Search</button>
+        </form>
+        </div>
+        
+    </header>
+    
+    <main>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/inception.jpg" alt="The Browser Failed to Find the Poster" title="Inception" width="130px" height="200px"></td>
-				<td>3. 
-					<a href="https://en.wikipedia.org/wiki/Inception" class="film">Inception</a>
-					<span>(2010)</span>
-					<h5>2hr 28min | Action, Adventure, Sci-Fi</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  74
-					</div>
-					<a href="https://www.youtube.com/watch?v=8hP9D6kZseM"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio">Leonardo DiCaprio</a><br>
-					<a href="https://en.wikipedia.org/wiki/Ellen_Page">Ellen Page</a><br>
-					<a href="https://en.wikipedia.org/wiki/Joseph_Gordon-Levitt">Joseph Gordon-Levitt</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
 
-			<tr>
-				<td><img src="poster/Forrest_Gump.jpg" alt="The Browser Failed to Find the Poster" title="Forrest Gump" width="130px" height="200px"></td>
-				<td>4. 
-					<a href="https://en.wikipedia.org/wiki/Forrest_Gump" class="film">Forrest Gump</a>
-					<span>(1994)</span>
-					<h5>2hr 22min | Drama, Romance</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  82
-					</div>
-					<a href="https://www.youtube.com/watch?v=bLvqoHBptjg"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>Forrest Gump is a simple man with a low I.Q. but good intentions. He is running through childhood with his best and only friend Jenny. His 'mama' teaches him the ways of life and leaves him to choose his destiny. Forrest joins the army for service in Vietnam, finding new friends called Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, inspires people to jog, starts a ping-pong craze, creates the smiley, writes bumper stickers and songs, donates to people and meets the president several times. However, this is all irrelevant to Forrest who can only think of his childhood sweetheart Jenny Curran, who has messed up her life. Although in the end all he wants to prove is that anyone can love anyone.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Tom_Hanks">Tom Hanks</a><br>
-					<a href="https://en.wikipedia.org/wiki/Robin_Wright">Robin Wright</a><br>
-					<a href="https://en.wikipedia.org/wiki/Gary_Sinise">Gary Sinise</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Robert_Zemeckis">Robert Zemeckis</a></td>
-			</tr>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/Fight_Club.jpg" alt="The Browser Failed to Find the Poster" title="Fight Club" width="130px" height="200px"></td>
-				<td>5. 
-					<a href="https://en.wikipedia.org/wiki/Fight_Club" class="film">Fight Club</a>
-					<span>(1999)</span>
-					<h5>2hr 19min | Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  66
-					</div>
-					<a href="https://www.youtube.com/watch?v=6JnN1DmbqoU"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Brad_Pitt">Brad Pitt</a><br>
-					<a href="https://en.wikipedia.org/wiki/Edward_Norton">Edward Norton</a><br>
-					<a href="https://en.wikipedia.org/wiki/Meat_Loaf">Meat Loaf</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/David_Fincher">David Fincher</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/The_Matrix.jpg" alt="The Browser Failed to Find the Poster" title="" width="130px" height="200px"></td>
-				<td>6. 
-					<a href="https://en.wikipedia.org/wiki/The_Matrix" class="film">The Matrix</a>
-					<span>(1999)</span>
-					<h5>2hr 16min | Action, Sci-Fi</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.7/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  73
-					</div>
-					<a href="https://www.youtube.com/watch?v=m8e-FF8MsqU"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="Matrix_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. As a rebel against the machines, Neo must confront the agents: super-powerful computer programs devoted to stopping Neo and the entire human rebellion.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Keanu_Reeves">Keanu Reeves</a><br>
-					<a href="https://en.wikipedia.org/wiki/Laurence_Fishburne">Laurence Fishburne</a><br>
-					<a href="https://en.wikipedia.org/wiki/Hugo-Weaving">Hugo Weaving</a><br>
-					<a href="https://en.wikipedia.org/wiki/Carrie-Anne_Moss">Carrie-Anne Moss</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Lana_Wachowski">Lana Wachowski</a>
-					<a href="https://en.wikipedia.org/wiki/Lilly_Wachowski">Lilly Wachowski</a>
-				</td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/Saving_Private_Ryan.jpg" alt="The Browser Failed to Find the Poster" title="Saving Private Ryan" width="130px" height="200px"></td>
-				<td>7. 
-					<a href="https://en.wikipedia.org/wiki/Saving_Private_Ryan" class="film">Saving Private Ryan</a>
-					<span>(1998)</span>
-					<h5>2hr 49min | War, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.6/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  91
-					</div>
-					<a href="https://www.youtube.com/watch?v=G9n_DdKDV2g"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>Opening with the Allied invasion of Normandy on 6 June 1944, members of the 2nd Ranger Battalion under Cpt. Miller fight ashore to secure a beachhead. Amidst the fighting, two brothers are killed in action. Earlier in New Guinea, a third brother is KIA. Their mother, Mrs. Ryan, is to receive all three of the grave telegrams on the same day. The United States Army Chief of Staff, George C. Marshall, is given an opportunity to alleviate some of her grief when he learns of a fourth brother, Private James Ryan, and decides to send out 8 men (Cpt. Miller and select members from 2nd Rangers) to find him and bring him back home to his mother.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Tom_Hanks">Tom Hanks</a><br>
-					<a href="https://en.wikipedia.org/wiki/Matt_Damon">Matt Damon</a><br>
-					<a href="https://en.wikipedia.org/wiki/Tom_Sizemore">Tom Sizemore</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Steven_Spielberg">Steven Spielberg</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/Interstellar.jpg" alt="The Browser Failed to Find the Poster" title="Interstellar" width="130px" height="200px"></td>
-				<td>8. 
-					<a href="https://en.wikipedia.org/wiki/Interstellar" class="film">Interstellar</a>
-					<span>(2014)</span>
-					<h5>2hr 49min | Adventure, Drama, Sci-Fi</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.6/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  74
-					</div>
-					<a href="https://www.youtube.com/watch?v=zSWdZVtXT7E"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Anne_Hathaway">Anne Hathaway</a><br>
-					<a href="https://en.wikipedia.org/wiki/Jessica_Chastain">Jessica Chastain</a><br>
-					<a href="https://en.wikipedia.org/wiki/Matthew_McConaughey">Matthew McConaughey</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/The_Green_Mile.jpg" alt="The Browser Failed to Find the Poster" title="The Green Mile" width="130px" height="200px"></td>
-				<td>9. 
-					<a href="https://en.wikipedia.org/wiki/The_Green_Mile" class="film">The Green Mile</a>
-					<span>(1999)</span>
-					<h5>3hr 9min | Crime, Drama, Fantasy</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.6/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  00
-					</div>
-					<a href="https://www.youtube.com/watch?v=ctRK-4Vt7dA"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>In the 1930's the lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Tom_Hanks">Tom Hanks</a><br>
-					<a href="https://en.wikipedia.org/wiki/David_Morse">David Morse</a><br>
-					<a href="https://en.wikipedia.org/wiki/Michael_Clarke_Duncan">Michael Clarke Duncan</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Frank Darabont</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/Gladiator.jpg" alt="The Browser Failed to Find the Poster" title="Gladiator" width="130px" height="200px"></td>
-				<td>10. 
-					<a href="https://en.wikipedia.org/wiki/Gladiator" class="film">Gladiator</a>
-					<span>(2000)</span>
-					<h5>2hr 35min | Action, Adventure, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.5/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  67
-					</div>
-					<a href="https://www.youtube.com/watch?v=uvbavW31adA"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>In 180 A.D. Rome, the weary and dying emperor, Marcus Aurelius, names his loyal and triumphant general, Maximus Decimus Meridius, his successor and protector of Rome, much to the dismay of his haughty and unbalanced son, Commodus. But, instead, death and entrapment await, as the embittered and blind with rage rival rewards Rome's hero with an order for his execution, only to wind up as a slave to the former gladiator, Proximo. From the vast deserts of North Africa, a new Maximo will rise as a gladiator, hacking and slashing his way through all the way up to Mother Rome and the unsuspecting dictator, Commodus. But will the popular general ever find peace in a long-awaited retribution?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Russell_Crowe">Russell Crowe</a><br>
-					<a href="https://en.wikipedia.org/wiki/Joaquin_Phoenix">Joaquin Phoenix</a><br>
-					<a href="https://en.wikipedia.org/wiki/Connie_Nielsen">Connie Nielsen</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Ridley_Scott">Ridley Scott</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/Terminator2.jpg" alt="The Browser Failed to Find the Poster" title="Terminator 2: Judgment Day" width="130px" height="220px"></td>
-				<td>11. 
-					<a href="https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day" class="film">Terminator 2: Judgment Day</a>
-					<span>(1991)</span>
-					<h5>2hr 17min | Action, Sci-Fi</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.5/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  75
-					</div>
-					<a href="https://www.youtube.com/watch?v=lwSysg9o7wE"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="Terminator_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>Over 10 years have passed since the first machine called The Terminator tried to kill Sarah Connor and her unborn son, John. The man who will become the future leader of the human resistance against the Machines is now a healthy young boy. However, another Terminator, called the T-1000, is sent back through time by the supercomputer Skynet. This new Terminator is more advanced and more powerful than its predecessor and its mission is to kill John Connor when he's still a child. However, in the Internet and John do not have to face the threat of the T-1000 alone. Another Terminator (identical to the same model that tried and failed to kill Sarah Connor in 1984) is also sent back through time to protect them. Now, the battle for tomorrow has begun.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Arnold_Schwarzenegger">Arnold Schwarzenegger</a><br>
-					<a href="https://en.wikipedia.org/wiki/Linda_Hamilton">Linda Hamilton</a><br>
-					<a href="https://en.wikipedia.org/wiki/Edward_Furlong">Edward Furlong</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/James_Cameron">James Cameron</a>
-				</td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/Leon_The_Professional.jpg" alt="The Browser Failed to Find the Poster" title="Léon: The Professional" width="130px" height="200px"></td>
-				<td>12. 
-					<a href="https://en.wikipedia.org/wiki/Léon:_The_Professional" class="film">Léon: The Professional</a>
-					<span>(1994)</span>
-					<h5>1hr 50min | Action, Crime, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.5/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  64
-					</div>
-					<a href="https://www.youtube.com/watch?v=jawVxq1Iyl0"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>Leon (played by Jean Reno) lives in New York and is a professional hit man. One of his neighbors, Mathilda (Natalie Portman), is a 12-year old girl with family problems, one of which is that her father is a petty criminal. One day, a drug kingpin, Stansfield (Gary Oldman), kills her entire family due to something her father did. Mathilda turns to Leon for help. An unusual relationship forms as she becomes his protégée and learns the assassin's trade and revenge.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Jean_Reno">Jean Reno</a><br>
-					<a href="https://en.wikipedia.org/wiki/Gary_Oldman">Gary Oldman</a><br>
-					<a href="https://en.wikipedia.org/wiki/Natalie_Portman">Natalie Portman</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Luc_Besson">Luc Besson</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/1917.jpg" alt="The Browser Failed to Find the Poster" title="1917" width="130px" height="200px"></td>
-				<td>13. 
-					<a href="https://en.wikipedia.org/wiki/1917_(2019_film)" class="film">1917</a>
-					<span>(2019)</span>
-					<h5>1hr 59min | Drama, War</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.3/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  78
-					</div>
-					<a href="https://www.youtube.com/watch?v=YqNYrYUiMfg"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>During World War I(April 6, 1917), On a battlefield in Northern France, two British soldiers Lance Corporal Will Schofield and Lance Corporal Tom Blake receive seemingly impossible orders. In a race against time, they must cross over into enemy territory to deliver a message that could potentially save 1,600 of their fellow comrades including Blake's own brother.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Dean-Charles_Chapman">Dean-Charles Chapman</a><br>
-					<a href="https://en.wikipedia.org/wiki/Daniel_Mays">Daniel Mays</a><br>
-					<a href="https://en.wikipedia.org/wiki/George_MacKay">George MacKay</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Sam_Mendes">Sam Mendes</a>
-				</td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/A_Beautiful_Mind.jpg" alt="The Browser Failed to Find the Poster" title="A Beautiful Mind" width="130px" height="200px"></td>
-				<td>14. 
-					<a href="https://en.wikipedia.org/wiki/A_Beautiful_Mind_(film)" class="film">A Beautiful Mind</a>
-					<span>(2001)</span>
-					<h5>2hr 15min | Biography, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.2/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  72
-					</div>
-					<a href="https://www.youtube.com/watch?v=9wZM7CQY130"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>At Princeton University, John Nash struggles to make a worthwhile contribution to serve as his legacy to the world of mathematics. He finally makes a revolutionary breakthrough that will eventually earn him the Nobel Prize. After graduate school he turns to teaching, becoming romantically involved with his student Alicia. Meanwhile the government asks his help with breaking Soviet codes, which soon gets him involved in a terrifying conspiracy plot. Nash grows more and more paranoid until a discovery that turns his entire world upside down. Now it is only with Alicia's help that he will be able to recover his mental strength and regain his status as the great mathematician we know him as today.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Russell_Crowe">Russell Crowe</a><br>
-					<a href="https://en.wikipedia.org/wiki/Ed_Harris">Ed Harris</a><br>
-					<a href="https://en.wikipedia.org/wiki/Jennifer_Connelly">Jennifer Connelly</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Ron_Howard">Ron Howard</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/Die_Hard.jpg" alt="The Browser Failed to Find the Poster" title="Die Hard" width="130px" height="200px"></td>
-				<td>15. 
-					<a href="https://en.wikipedia.org/wiki/Die_Hard" class="film">Die Hard</a>
-					<span>(1988)</span>
-					<h5>2hr 12min | Action, Thriller</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.2/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  72
-					</div>
-					<a href="https://www.youtube.com/watch?v=jaJuwKCmJbY"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="Die_Hard_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>NYPD cop John McClane goes on a Christmas vacation to visit his wife Holly John McTiernanin Los Angeles where she works for the Nakatomi Corporation. While they are at the Nakatomi headquarters, a group of robbers led by Hans Gruber take control of the building and hold everyone hostage, with the exception of John, while they plan to perform a lucrative heist. Unable to escape and with no immediate police response, John is forced to take matters into his own hands.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Bruce_Willis">Bruce Willis</a><br>
-					<a href="https://en.wikipedia.org/wiki/Alan_Rickman">Alan Rickman</a><br>
-					<a href="https://en.wikipedia.org/wiki/Bonnie_Bedelia">Bonnie Bedelia</a></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/John_McTiernan">John McTiernan</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/potter8.jpg" alt="The Browser Failed to Find the Poster" title="Harry Potter and the Deathly Hallows, Part 2" width="130px" height="220px"></td>
-				<td>16. 
-					<a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_–_Part_2" class="film">Harry Potter and the Deathly Hallows, Part 2</a>
-					<span>(2011)</span>
-					<h5>2hr 10min | Mystery, Fantasy, Family</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.1/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  85
-					</div>
-					<a href="https://www.youtube.com/watch?v=rn5fJokCePE"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="Harry_Potter_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>Harry (Daniel Radcliffe), Ron (Rupert Grint), and Hermione (Emma Watson) continue to find the rest of Voldemort's (Ralph Fiennes') Horcruxes, until Harry discovers that one is at Hogwarts, they flee there as soon as possible, but Voldemort instantly finds out about their mission. The battle is drawn at Hogwarts as many people fight to protect Harry. Harry then realizes that people are dying constantly for his mistakes and then eventually fights Voldemort for the last time. Along the way, crucial secrets are unravelled, and the mysterious, but legendary, Deathly Hallows reappear.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Daniel_Radcliffe">Daniel Radcliffe</a><br>
-					<a href="https://en.wikipedia.org/wiki/Emma_Watson">Emma Watson</a><br>
-					<a href="https://en.wikipedia.org/wiki/Rupert_Grint">Rupert Grint</a><br>
-					<a href="https://en.wikipedia.org/wiki/Ralph_Fiennes">Ralph Fiennes</a><br>
-					<a href="https://en.wikipedia.org/wiki/Michael_Gambon">Michael Gambon</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/David_Yates">David Yates</a>
-				</td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
+        <div class="card">
+            <div class="dummypic"></div>
 
-			<tr>
-				<td><img src="poster/x10.jpg" alt="The Browser Failed to Find the Poster" title="Logan" width="130px" height="200px"></td>
-				<td>17. 
-					<a href="https://en.wikipedia.org/wiki/Logan_(film)" class="film">Logan</a>
-					<span>(2017)</span>
-					<h5>2hr 17min | Sci-Fi, Action, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.1/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  77
-					</div>
-					<a href="https://www.youtube.com/watch?v=RH3OxVFvTeg"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="X-Men_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>In 2029 the mutant population has shrunken significantly due to genetically modified plants designed to reduce mutant powers and the X-Men have disbanded. Logan, whose power to self-heal is dwindling, has surrendered himself to alcohol and now earns a living as a chauffeur. He takes care of the ailing old Professor X whom he keeps hidden away. One day, a female stranger asks Logan to drive a girl named Laura to the Canadian border. At first he refuses, but the Professor has been waiting for a long time for her to appear. Laura possesses an extraordinary fighting prowess and is in many ways like Wolverine. She is pursued by sinister figures working for a powerful corporation; this is because they made her, with Logan's DNA. A decrepit Logan is forced to ask himself if he can or even wants to put his remaining powers to good use. It would appear that in the near-future, the times in which they were able put the world to rights with razor sharp claws and telepathic powers are now over.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Hugh_Jackman">Hugh Jackman</a><br>
-					<a href="https://en.wikipedia.org/wiki/Patrick_Stewart">Patrick Stewart</a><br>
-					<a href="https://en.wikipedia.org/wiki/Dafne_Keen">Dafne Keen</a>
-				</td>
-				<td class="name"><a href="https://en.wikipedia.org/wiki/James_Mangold">James Mangold</a></td>
-			</tr>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsum corrupti maiores perspiciatis.
+            </div>
+        </div>
 
-			<tr>
-				<td><img src="poster/mad_max.jpg" alt="The Browser Failed to Find the Poster" title="Mad Max: Fury Road" width="130px" height="200px"></td>
-				<td>18. 
-					<a href="https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road" class="film">Mad Max: Fury Road</a>
-					<span>(2015)</span>
-					<h5>2hr | Sci_Fi, Action, Adventure</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.1/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  90
-					</div>
-					<a href="https://www.youtube.com/watch?v=hEJnMQG9ev8"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>The former policeman Max is captured by the War Boys tribe, commanded by the Immortal Joe and assigned to be blood donor for the Wat Boy Nux who is sick. Meanwhile Imperator Furiosa drives a tank truck to collect gasoline for Joe. However her true intention is to flee from the tyrannical Joe with his five women selected to breed hidden in the truck to her homeland. Immortal Joe commands a party to hunt down Furiosa and Max is chained to Nux's car. Furiosa heads the truck into a sand storm but Nux continues to pursue her. After the storm, Max succeeds to escape from the car and brings Nux chained with him. He sees Furiosa and the five wives and decides to flee in their truck; but there is a secret to operate the truck and he teams up with Furiosa, leaving Nux in the desert. When Joe's gang arrives, they retrieve Nux and follow Furiosa. Will Max and the women succeed in escaping from Joe's gang?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Tom_Hardy">Tom Hardy</a><br>
-					<a href="https://en.wikipedia.org/wiki/Charlize_Theron">Charlize Theron</a><br>
-					<a href="https://en.wikipedia.org/wiki/Nicholas_Hoult">Nicholas Hoult</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/George_Miller">George Miller</a>
-				</td>
-			</tr>
 
-			<tr>
-				<td><img src="poster/bond1.jpg" alt="The Browser Failed to Find the Poster" title="Casino Royale" width="130px" height="200px"></td>
-				<td>19. 
-					<a href="https://en.wikipedia.org/wiki/Casino_Royale_(2006_film)" class="film">Casino Royale</a>
-					<span>(2006)</span>
-					<h5>2hr 24min | Thriller, Action, Adventure</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  80
-					</div>
-					<a href="https://www.youtube.com/watch?v=36mnx8dBbGE"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="007_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>James Bond (Daniel Craig) goes on his first mission as a 00. Le Chiffre (Mads Mikkelsen) is a banker to the world's terrorists. He is participating in a poker game at Montenegro, where he must win back his money, in order to stay safe amongst the terrorist market. The boss of MI6, known simply as "M" (Dame Judi Dench) sends Bond, along with Vesper Lynd Eva Green) to attend this game and prevent Le Chiffre from winning. Bond, using help from Felix Leiter (Jeffrey Wright), Rene Mathis (Giancarlo Giannini), and having Vesper pose as his partner, enters the most important poker game in his already dangerous career. But if Bond defeats Le Chiffre, will he and Vesper Lynd remain safe?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Daniel_Craig">Daniel Craig</a><br>
-					<a href="https://en.wikipedia.org/wiki/Judi_Dench">Judi Dench</a><br>
-					<a href="https://en.wikipedia.org/wiki/Eva_Green">Eva Green</a><br>
-					<a href="https://en.wikipedia.org/wiki/Mads_Mikkelsen">Mads Mikkelsen</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Martin_Campbell">Martin Campbell</a>
-				</td>
-			</tr>
 
-			<tr>
-				<td><img src="poster/pirate1.jpg" alt="The Browser Failed to Find the Poster" title="Pirates of the Caribbean: The Curse of the Black Pearl" width="130px" height="200px"></td>
-				<td>20. 
-					<a href="https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl" class="film">Pirates of the Caribbean: The Curse of the Black Pearl</a>
-					<span>(2003)</span>
-					<h5>2hr 23min | Action, Adventure, Fantasy</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  63
-					</div>
-					<a href="https://www.youtube.com/watch?v=naQr0uTrH_s&t=66s"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="pirates_series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>William Turner, a resourceful young blacksmith, teams up with the eccentric pirate "Captain" Jack Sparrow to save his love, the Governor's daughter, Elizabeth Swann, who has been mistakenly captured by the clever and treacherous Barbossa, a former ally of Jack, to make a blood sacrifice so as to end the curse that has been casted upon him and his crew. Will and Jack steal a ship from the Royal Navy and arrive at Tortuga, a pirate port. There Jack meets his friend Joshamee Gibbs and with a buccaneer and "able bodied" crew, set sail to save Elizabeth and take back the Black Pearl. Meanwhile, Barbossa discovers that not Elizabeth's but someone else's blood was required for the sacrifice. Whose blood is it?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Johnny_Depp">Johnny Depp</a><br>
-					<a href="https://en.wikipedia.org/wiki/Geoffrey_Rush">Geoffrey Rush</a><br>
-					<a href="https://en.wikipedia.org/wiki/Orlando_Bloom">Orlando Bloom</a><br>
-					<a href="https://en.wikipedia.org/wiki/Keira_Knightley">Keira Knightley</a><br>
-					<a href="https://en.wikipedia.org/wiki/Kevin_McNally">Kevin McNally</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Gore_Verbinski">Gore Verbinski</a>
-				</td>
-			</tr>
 
-			<tr>
-				<td><img src="poster/ipman1.jpg" alt="The Browser Failed to Find the Poster" title="Ip Man" width="130px" height="200px"></td>
-				<td>21. 
-					<a href="https://en.wikipedia.org/wiki/Ip_Man_(film)" class="film">Ip Man</a>
-					<span>(2008)</span>
-					<h5>1hr 46min | Biography, Action, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  59
-					</div>
-					<a href="https://www.youtube.com/watch?v=SZtSwjk4aD8"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="Ip_Man_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>Dramatizes the life of Yip Man (1893-1972) in the mid to late 1930s. Foshun is a prosperous city with many martial arts schools. Yip, who practices Wing Chun, is the local master. When a rough gang comes to town, it's Yip they must challenge. Then, Japan invades China. Yip and his family live in poverty, with Yip taking any work for food. General Miura, now in charge, stages martial arts fights between Chinese and his men: winners get extra rice. When the general's attaché murders a colleague of Yip's, Yip must step forward. At the same time, the ruffians return to town, this time threatening a local cotton mill. Can Yip protect the mill and also face Miura and certain death?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Donnie_Yen">Donnie Yen</a><br>
-					<a href="https://en.wikipedia.org/wiki/Kent_Cheng">Kent Cheng</a><br>
-					<a href="https://en.wikipedia.org/wiki/Lynn_Hung">Lynn Hung</a><br>
-					<a href="https://en.wikipedia.org/wiki/Simon_Yam">Simon Yam</a><br>
-					<a href="https://en.wikipedia.org/wiki/Siu-Wong_Fan">Siu-Wong Fan</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Wilson_Yip">Wilson_Yip</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/bourne3.jpg" alt="The Browser Failed to Find the Poster" title="The Bourne Ultimatum" width="130px" height="210px"></td>
-				<td>22. 
-					<a href="https://en.wikipedia.org/wiki/The_Bourne_Ultimatum_(film)" class="film">The Bourne Ultimatum</a>
-					<span>(2007)</span>
-					<h5>1hr 55min | Action, Mystery, Thriller</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  85
-					</div>
-					<a href="https://www.youtube.com/watch?v=ohkW_xbPl9A"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="bourne_series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>Bourne is once again brought out of hiding, this time inadvertently by London-based reporter Simon Ross who is trying to unveil Operation Blackbriar--an upgrade to Project Treadstone--in a series of newspaper columns. Bourne sets up a meeting with Ross and realizes instantly they're being scanned. Information from the reporter stirs a new set of memories, and Bourne must finally, ultimately, uncover his dark past whilst dodging The Company's best efforts in trying to eradicate him.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Matt_Damon">Matt Damon</a><br>
-					<a href="https://en.wikipedia.org/wiki/Julia_Stiles">Julia Stiles</a><br>
-					<a href="https://en.wikipedia.org/wiki/David_Strathairn">David Strathairn</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Paul_Greengrass">Paul Greengrass</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/raid2.jpg" alt="The Browser Failed to Find the Poster" title="The Raid 2" width="130px" height="200px"></td>
-				<td>23. 
-					<a href="https://en.wikipedia.org/wiki/The-Raid_2" class="film">The Raid 2</a>
-					<span>(2014)</span>
-					<h5>2hr 30min | Action, Crime, Thriller</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  71
-					</div>
-					<a href="https://www.youtube.com/watch?v=MG9uFX3uYq4"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="raid_series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>He thought it was over. After fighting his way out of a building filled with gangsters and madmen - a fight that left the bodies of police and gangsters alike piled in the halls - rookie Jakarta cop Rama thought it was done and he could resume a normal life. He couldn't have been more wrong. Formidable though they may have been, Rama's opponents in that fateful building were nothing more than small fish swimming in a pond much larger than he ever dreamed possible. And his triumph over the small fry has attracted the attention of the predators farther up the food chain. His family at risk, Rama has only one choice to protect his infant son and wife: He must go undercover to enter the criminal underworld himself and climb through the hierarchy of competing forces until it leads him to the corrupt politicians and police pulling the strings at the top of the heap. And so Rama begins a new odyssey of violence, a journey that will force him to set aside his own life and history and take on a new identity as the violent offender "Yuda." In prison he must gain the confidence of Uco - the son of a prominent gang kingpin - to join the gang himself, laying his own life on the line in a desperate all-or-nothing gambit to bring the whole rotten enterprise to an end.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Iko_Uwais">Iko Uwais</a><br>
-					<a href="https://en.wikipedia.org/wiki/Arifin_Putra">Arifin Putra</a><br>
-					<a href="https://en.wikipedia.org/wiki/Yayan_Ruhian">Yayan Ruhian</a><br>
-					<a href="https://en.wikipedia.org/wiki/Oka_Antara">Oka Antara</a><br>
-					<a href="https://en.wikipedia.org/wiki/Tio_Pakusadewo">Tio_Pakusadewo</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Gareth_Evans">Gareth Evans</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/avatar.jpg" alt="The Browser Failed to Find the Poster" title="Avatar" width="130px" height="200px"></td>
-				<td>24. 
-					<a href="https://en.wikipedia.org/wiki/Avatar_(2009_film)" class="film">Avatar</a>
-					<span>(2009)</span>
-					<h5>2hr 42min | Action, Adventure, Fantasy</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  7.8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  83
-					</div>
-					<a href="https://www.youtube.com/watch?v=5PSNL1qE6VY"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There he learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid "Na'vi" in order to mine for the precious material scattered throughout their rich woodland. In exchange for the spinal surgery that will fix his legs, Jake gathers knowledge, of the Indigenous Race and their Culture, for the cooperating military unit spearheaded by gung-ho Colonel Quaritch, while simultaneously attempting to infiltrate the Na'vi people with the use of an "avatar" identity. While Jake begins to bond with the native tribe and quickly falls in love with the beautiful alien Neytiri, the restless Colonel moves forward with his ruthless extermination tactics, forcing the soldier to take a stand - and fight back in an epic battle for the fate of Pandora.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Sam_Worthington">Sam Worthington</a><br>
-					<a href="https://en.wikipedia.org/wiki/Zoe_Saldana">Zoe Saldana</a><br>
-					<a href="https://en.wikipedia.org/wiki/Sigourney_Weaver">Sigourney Weaver</a>
-					<a href="https://en.wikipedia.org/wiki/Stephen_Lang">Stephen Lang</a><br>
-					<a href="https://en.wikipedia.org/wiki/Michelle_Rodriguez">Michelle Rodriguez</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/James_Cameron">James Cameron</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/mi6.jpg" alt="The Browser Failed to Find the Poster" title="Mission: Impossible - Fallout" width="130px" height="215px"></td>
-				<td>25.
-					<a href="https://en.wikipedia.org/wiki/Mission:_Impossible_-_Fallout" class="film">Mission: Impossible - Fallout</a>
-					<span>(2018)</span>
-					<h5>2hr 27min | Action, Thriller, Adventure</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  7.7/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  86
-					</div>
-					<a href="https://www.youtube.com/watch?v=XiHiW4N7-bo"><h4 class="trailer">Official Trailer</h4></a>
-					<a href="MI_Series.html" class="lnk" target="_blank">Click for Series Details</a>
-				</td>
-				<td>After a mission goes wrong and anarchist Solomon Lane (Sean Harris) escapes custody, Ethan Hunt (Tom Cruise) and his IMF team are blamed and their loyalty is questioned. They attempt to fulfill their initial mission and recapture Lane while also trying to outrun a ruthless CIA agent (Henry Cavill) tasked with taking them out. As Hunt fends off these old and new threats, he also realizes allies within IMF might have other motives. Produced, written and directed by Christopher McQuarrie. Alec Baldwin, Angela Bassett, Rebecca Ferguson, Simon Pegg, Ving Rhames and Michelle Monaghan co-star.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Tom_Cruise">Tom Cruise</a><br>
-					<a href="https://en.wikipedia.org/wiki/Henry_Cavill">Henry Cavill</a><br>
-					<a href="https://en.wikipedia.org/wiki/Rebecca_Ferguson">Rebecca Ferguson</a><br>
-					<a href="https://en.wikipedia.org/wiki/Simon_Pegg">Simon Pegg</a><br>
-					<a href="https://en.wikipedia.org/wiki/Ving_Rhames">Ving Rhames</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Christopher_McQuarrie">Christopher McQuarrie</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/The_Wolf_of_Wall_Street.jpg" alt="The Browser Failed to Find the Poster" title="The Wolf of Wall Street" width="130px" height="200px"></td>
-				<td>26. 
-					<a href="https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)" class="film">The Wolf of Wall Street</a>
-					<span>(2013)</span>
-					<h5>3hr | Biography, Crime, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.2/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  75
-					</div>
-					<a href=""><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>In the early 1990s, Jordan Belfort teamed with his partner Donny Azoff and started brokerage firm Stratford-Oakmont. Their company quickly grows from a staff of 20 to a staff of more than 250 and their status in the trading community and Wall Street grows exponentially. So much that companies file their initial public offerings through them. As their status grows, so do the amount of substances they abuse, and so do their lies. They draw attention like no other, throwing lavish parties for their staff when they hit the jackpot on high trades. That ultimately leads to Belfort featured on the cover of Forbes Magazine, being called "The Wolf Of Wall St.". With the FBI onto Belfort's trading schemes, he devises new ways to cover his tracks and watch his fortune grow. Belfort ultimately comes up with a scheme to stash their cash in a European bank. But with the FBI watching him like a hawk, how long will Belfort and Azoff be able to maintain their elaborate wealth and luxurious lifestyles?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio">Leonardo DiCaprio</a><br>
-					<a href="https://en.wikipedia.org/wiki/Jonah_Hill">Jonah Hill</a><br>
-					<a href="https://en.wikipedia.org/wiki/Margot_Robbie">Margot Robbie</a><br>
-					<a href="https://en.wikipedia.org/wiki/Matthew_McConaughey">Matthew McConaughey</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Martin_Scorsese">Martin Scorsese</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/Prisoners.jpg" alt="The Browser Failed to Find the Poster" title="Prisoners" width="130px" height="200px"></td>
-				<td>27. 
-					<a href="https://en.wikipedia.org/wiki/Prisoners_(2013_film)" class="film">Prisoners</a>
-					<span>(2013)</span>
-					<h5>2hr 33min | Crime, Drama, Mystery</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.1/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  70
-					</div>
-					<a href="https://www.youtube.com/watch?v=1kWeHtI63jc"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>How far would you go to protect your family? Keller Dover is facing every parent's worst nightmare. His six-year-old daughter, Anna, is missing, together with her young friend, Joy, and as minutes turn to hours, panic sets in. The only lead is a dilapidated RV that had earlier been parked on their street. Heading the investigation, Detective Loki arrests its driver, Alex Jones, but a lack of evidence forces his release. As the police pursue multiple leads and pressure mounts, knowing his child's life is at stake the frantic Dover decides he has no choice but to take matters into his own hands. But just how far will this desperate father go to protect his family?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Hugh_Jackman">Hugh Jackman</a><br>
-					<a href="https://en.wikipedia.org/wiki/Jake_Gyllenhaal">Jake Gyllenhaal</a><br>
-					<a href="https://en.wikipedia.org/wiki/Viola_Davis">Viola Davis</a><br>
-					<a href="https://en.wikipedia.org/wiki/Dylan_Minnette">Dylan Minnette</a><br>
-					<a href="https://en.wikipedia.org/wiki/Terrence_Howard">Terrence Howard</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Denis_Villeneuve">Denis Villeneuve</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/Gone_Girl.jpg" alt="The Browser Failed to Find the Poster" title="Gone Girl" width="130px" height="200px"></td>
-				<td>28. 
-					<a href="https://en.wikipedia.org/wiki/Gone_Girl_(film)" class="film">Gone Girl</a>
-					<span>(2014)</span>
-					<h5>2hr 29min | Mystery, Thriller, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.1/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  79
-					</div>
-					<a href="https://www.youtube.com/watch?v=2-_-1nJf8Vg"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>Nick Dunne, a small town guy who made good in the big city as a magazine writer blames the recession and the loss of his job for the decline of his marriage to his intellectually superior wife with a substantial trust fund. Questions of his motives and character begin to arise after his wife's disappearance on the morning of their fifth anniversary. As the search for his missing wife plays out over the ensuing days, guilty suspicions are fueled into a national frenzy by the media circus camped outside his house. Is this idyllic, everyman truly capable of murdering his wife?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Ben_Affleck">Ben Affleck</a><br>
-					<a href="https://en.wikipedia.org/wiki/Rosamund_Pike">Rosamund Pike</a><br>
-					<a href="https://en.wikipedia.org/wiki/Neil_Patrick_Harris">Neil Patrick Harris</a><br>
-					<a href="https://en.wikipedia.org/wiki/Kim_Dickens">Kim Dickens</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/David_Fincher">David Fincher</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/Room.jpg" alt="The Browser Failed to Find the Poster" title="Room" width="130px" height="200px"></td>
-				<td>29. 
-					<a href="https://en.wikipedia.org/wiki/Room_(2015_film)" class="film">Room</a>
-					<span>(2015)</span>
-					<h5>1hr 58min | Drama, Thriller</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.1/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  86
-					</div>
-					<a href="https://www.youtube.com/watch?v=E_Ci-pAL4eE"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>ROOM tells the extraordinary story of Jack, a spirited 5-year-old who is looked after by his loving and devoted mother. Like any good mother, Ma dedicates herself to keeping Jack happy and safe, nurturing him with warmth and love and doing typical things like playing games and telling stories. Their life, however, is anything but typical--they are trapped--confined to a 10-by-10-foot space that Ma has euphemistically named Room. Ma has created a whole universe for Jack within Room, and she will stop at nothing to ensure that, even in this treacherous environment, Jack is able to live a complete and fulfilling life. But as Jack's curiosity about their situation grows, and Ma's resilience reaches its breaking point, they enact a risky plan to escape, ultimately bringing them face-to-face with what may turn out to be the scariest thing yet: the real world.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Brie_Larson">Brie Larson</a><br>
-					<a href="https://en.wikipedia.org/wiki/Jacob_Tremblay">Jacob Tremblay</a><br>
-					<a href="https://en.wikipedia.org/wiki/Joan_Allen">Joan Allen</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Lenny_Abrahamson">Lenny Abrahamson</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/Revenant.jpg" alt="The Browser Failed to Find the Poster" title="The Revenant" width="130px" height="200px"></td>
-				<td>30. 
-					<a href="https://en.wikipedia.org/wiki/The_Revenant_(2015_film)" class="film">The Revenant</a>
-					<span>(2015)</span>
-					<h5>2hr 36min | Action, Adventure, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  76
-					</div>
-					<a href="https://www.youtube.com/watch?v=LoebZZ8K5N0"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>In the untamed and unforgiving wilderness of mid-winter snow-capped Missouri, the experienced nineteenth-century tracker, Hugh Glass, and his son, Hawk, lead a hunting and trapping expedition in the uncharted territory of the fierce Indian tribe, Arikara. As the party of trappers struggle to navigate back to the distant Fort Kiowa, a swift and devastating attack by a formidable grizzly bear leaves a brutally mauled Glass on the brink of death, double-crossed and abandoned by his men. Now, only Hugh's rabid desire to live can help him survive the piercing cold and the grave dangers in one of the world's most inhospitable environments, giving him the strength to drag his unrecognisable carcass and exact his revenge. However, will the man who has returned from the dead taste the ambrosial fruit of retribution?</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio">Leonardo DiCaprio</a><br>
-					<a href="https://en.wikipedia.org/wiki/Tom_Hardy">Tom Hardy</a><br>
-					<a href="https://en.wikipedia.org/wiki/Domhnall_Gleeson">Domhnall Gleeson</a><br>
-					<a href="https://en.wikipedia.org/wiki/Will_Poulter">Will Poulter</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Alejandro_G._Iñárritu">Alejandro G. Iñárritu</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/Togo.jpg" alt="The Browser Failed to Find the Poster" title="Togo" width="130px" height="200px"></td>
-				<td>31. 
-					<a href="https://en.wikipedia.org/wiki/Togo" class="film">Togo</a>
-					<span>(2019)</span>
-					<h5>1hr 53min | Biography, Adventure, Drama</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8.0/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  69
-					</div>
-					<a href="https://www.youtube.com/watch?v=IUOiouEIf2k"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>This film fictionalizes the relationship between two pivotal figures in the 1925 serum run to Nome: the Norwegian sled dog breeder, trainer, and musher Leonhard Seppala (Willem Dafoe) and his lead sled dog Togo – an exceptional Siberian Husky. The two of them endure the longest and most perilous leg of the historic effort to transport diphtheria antitoxin to an isolated small town in northeast Alaska.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Willem_Dafoe">Willem Dafoe</a><br>
-					<a href="https://en.wikipedia.org/wiki/Julianne_Nicholson">Julianne Nicholson</a><br>
-					<a href="https://en.wikipedia.org/wiki/Christopher_Heyerdahl">Christopher Heyerdahl</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Ericson_Core">Ericson Core</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/The_Perks_of_Being_a_Wallflower.jpg" alt="The Browser Failed to Find the Poster" title="The Perks of Being a Wallflower" width="130px" height="200px"></td>
-				<td>32. 
-					<a href="https://en.wikipedia.org/wiki/The_Perks_of_Being_a_Wallflower" class="film">The Perks of Being a Wallflower</a>
-					<span>(2012)</span>
-					<h5>1hr 43min | Drama, Romance</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  8/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  67
-					</div>
-					<a href="https://www.youtube.com/watch?v=n5rh7O4IDc0"><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td>As a freshmen in High School, Charlie, portrayed by Logan Lerman, struggles with bullies, depression, bad influences and girls. Based on the book written by Stephan Chbosky, the Perks of Being a Wallflower thrives as a film. While Charlie wants to survive high school, he forces himself to participate in school functions, to prevent himself from falling back into his depression. The not-so-typical teenager finds himself being taken under the wing by a few seniors, and has never been so excited to have friends again. Finally being happy, Charlie experiments with drugs, sex and the party scene, but underlying problems from the past cause Charlie to spiral out of control.</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio">Leonardo DiCaprio</a><br>
-					<a href="https://en.wikipedia.org/wiki/Emma_Watson">Emma Watson</a><br>
-					<a href="https://en.wikipedia.org/wiki/Ezra_Miller">Ezra Miller</a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/Stephen_Chbosky">Stephen Chbosky</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/.jpg" alt="The Browser Failed to Find the Poster" title="" width="130px" height="200px"></td>
-				<td>33. 
-					<a href="https://en.wikipedia.org/wiki/" class="film"></a>
-					<span>()</span>
-					<h5>2hr 12min | Action, Crime, Thriller, Adventure</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  /10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  00
-					</div>
-					<a href=""><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/"></a><br>
-					<a href="https://en.wikipedia.org/wiki/"></a><br>
-					<a href="https://en.wikipedia.org/wiki/"></a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/"></a>
-				</td>
-			</tr>
-
-			<tr>
-				<td><img src="poster/.jpg" alt="The Browser Failed to Find the Poster" title="" width="130px" height="200px"></td>
-				<td>34. 
-					<a href="https://en.wikipedia.org/wiki/" class="film"></a>
-					<span>()</span>
-					<h5>2hr 12min | Action, Crime, Thriller, Adventure</h5>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<img src="imdb.png">  /10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-						<img src="metacritic.png">  00
-					</div>
-					<a href=""><h4 class="trailer">Official Trailer</h4></a>
-				</td>
-				<td></td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/"></a><br>
-					<a href="https://en.wikipedia.org/wiki/"></a><br>
-					<a href="https://en.wikipedia.org/wiki/"></a>
-				</td>
-				<td class="name">
-					<a href="https://en.wikipedia.org/wiki/"></a>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+        <div class="popup">
+            <h1>Movie Name</h1>
+            <p>rating</p>
+            <h3>Cast</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea eveniet sequi ratione dolores accusamus ducimus possimus deleniti mollitia assumenda odio sunt hic asperiores, ad unde nisi expedita? Perspiciatis veniam repellat quibusdam dicta odio, totam dolor, ullam blanditiis obcaecati qui itaque nulla esse perferendis, error laboriosam provident at ipsam. Quia, iusto.</p>
+        </div>
+    </main>
 </body>
 </html>

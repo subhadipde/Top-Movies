@@ -1,0 +1,125 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(24, 24, 145);
+}
+
+/* header css */
+
+header{
+    font-size: 1.4rem;
+    display: flex;
+    background-color: aqua;
+
+    min-height: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 30px;
+}
+.nav{
+    
+    width: 400px; /*upto 800px */
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    color: mintcream;
+    text-decoration: none;
+}
+.nav a:hover{
+    transform: scale(105%);
+}
+#search{
+    font-size: 1rem;
+}
+.search input{
+    width: 15vw;
+    border-radius: 5px;
+}
+.search button{
+    color: mintcream;
+    background-color: indigo;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+.search button:hover{
+    transform: scale(105%);
+    box-shadow: rgb(4, 0, 252) 0px 0px 20px 5px;
+    cursor: pointer;
+}
+
+/* header css */
+
+/* main css */
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: orchid;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin: 30px;
+
+    transition: 0.2s;
+}
+
+.card:hover{
+    transform: scale(110%);
+    box-shadow: rgb(0, 252, 134) 0px 0px 10px 3px;
+    cursor: pointer;
+}
+
+
+.dummypic{
+    background-color: teal;
+    height: 200px;
+    width:200px;
+}
+
+.description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+.popup{
+    display:none;
+    position: absolute;
+    background-color: thistle;
+    color: black;
+    margin: 5vh 5vw;
+    height: 80vh;
+    width: 80vw;
+
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: center;
+}
+.popup h1{
+    width: inherit;
+}
+.popup h3{
+    width: inherit;
+}
+.popup p{
+    padding: 0 10px;
+    width: inherit;
+    
+}
+
+
+/* main css */
+
+
+/* animation */
+
